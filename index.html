@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="ToDo">
+        <div class="container">
+            <!-- Inside the container, add an input field for adding tasks, a list to display the tasks, and buttons for adding and removing tasks. -->
+            <input type="text" id="task-input" placeholder="Add a task...">
+            <hr>
+            <ul id="task-list">
+                <li>
+                  <input type="checkbox" id="task-1">
+                  <label for="task-1">Hit the gym</label>
+                  <button class="delete-button" id="remove-task">Delete</button>
+                </li>
+                <!-- Add other tasks similarly -->
+              </ul>
+            <hr>  
+            <div id="task-count">
+                Tasks Count
+            </div>
+            <button id="add-task">Add Task</button>
+
+        </div>
+    
+
+    </div>
+    
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
